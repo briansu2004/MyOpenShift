@@ -2,10 +2,7 @@
 
 My OpenShift
 
-
-
 ## Pipeline
-
 
 ```dos
 oc
@@ -13,7 +10,6 @@ oc get pods -n openshift-console | grep console
 oc get routes console -n openshift-console
 oc apply -f /opt/operator/subscription.yaml
 ```
-
 
 subscription.yaml
 
@@ -40,7 +36,6 @@ done
 echo "Operator ready"
 ```
 
-
 ![](image/README/001.png)
 
 ![](image/README/002.png)
@@ -48,7 +43,6 @@ echo "Operator ready"
 ![](image/README/workloads_Pods.png)
 
 ![](image/README/workloads_Deployments.png)
-
 
 DeploymentConfigs
 
@@ -64,7 +58,6 @@ StatefulSets
 
 ![](image/README/004.png)
 
+## Download OC for Windows 10
 
-
-
-
+<https://mirror.openshift.com/pub/openshift-v4/clients/ocp/latest/openshift-client-windows.zip>
